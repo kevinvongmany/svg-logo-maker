@@ -1,7 +1,6 @@
 {
   "name": "svg-logo-maker",
   "module": "index.js",
-  "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
     "jest": "^29.7.0"
@@ -10,6 +9,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "inquirer": "^10.1.8"
+    "inquirer": "8.2.4"
   }
 }
