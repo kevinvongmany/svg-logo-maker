@@ -17,7 +17,13 @@ const questions = [
     {
         type: 'input',
         name: 'text',
-        message: 'Enter 3 characters to have inside the shape:'
+        message: 'Enter 3 characters to have inside the shape:',
+        validate: function (value) {
+            if (value.length != 3) {
+                return 'Please enter 3 characters';
+            }
+            return true;
+        }
     },
     {
         type: 'input',
@@ -49,6 +55,6 @@ inquirer.prompt(questions).then(answers => {
     }
     shape.setColour(answers.colour);
     const svg = new generator(shape.render(), text);
-    svg.saveToFile(answers.shape.toLowerCase());
-    console.log('SVG file created!');
+    svg.saveToFile('logo');
+    console.log('Generated logo.svg');
 });
