@@ -10,6 +10,7 @@ A walkthrough demonstration of this application can be found here: https://www.y
 - [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Samples](#samples)
 
 ## Installation
 This application was built on `NodeJS` and `npm`. We recommend using [bun](https://bun.sh/) to run this application.
@@ -66,3 +67,9 @@ bun test
 If you have any questions you can find me on GitHub here: [kevinvongmany](https://github.com/kevinvongmany)
   
 You can also contact me via email here: [kevin.vongmany@gmail.com](kevin.vongmany@gmail.com)
+
+## Samples
+
+![Circle](examples/circle.svg)
+![Square](examples/square.svg)
+![Triangle](examples/triangle.svg)
