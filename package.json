@@ -1,6 +1,10 @@
 {
   "name": "svg-logo-maker",
   "module": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "jest": "^29.7.0"
