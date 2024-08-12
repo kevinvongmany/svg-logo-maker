@@ -19,8 +19,8 @@ const questions = [
         name: 'text',
         message: 'Enter 3 characters to have inside the shape:',
         validate: function (value) {
-            if (value.length != 3) {
-                return 'Please enter 3 characters';
+            if (value.length > 3) {
+                return 'Please enter up to 3 characters';
             }
             return true;
         }
