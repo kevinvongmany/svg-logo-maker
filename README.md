@@ -71,5 +71,7 @@ You can also contact me via email here: [kevin.vongmany@gmail.com](kevin.vongman
 ## Samples
 
 ![Circle](examples/circle.svg)
+
 ![Square](examples/square.svg)
+
 ![Triangle](examples/triangle.svg)
