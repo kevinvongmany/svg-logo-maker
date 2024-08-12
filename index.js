@@ -12,7 +12,7 @@ const questions = [
     {
         type: 'input',
         name: 'colour',
-        message: 'Enter the colour of the shape:'
+        message: 'Enter the colour of the shape: (e.g. blue, red, #ff0000) '
     },
     {
         type: 'input',
@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'textColour',
-        message: 'Enter the colour of the text:'
+        message: 'Enter the colour of the text: (e.g. blue, red, #ff0000) '
     }
 ];
 
